@@ -55,6 +55,10 @@ namespace gojuon
 					now = rand.Next(46);
 					label1_qus.Text = char.ToString(gojuin[now]);
 				}
+				else if (textBox_ans.Text == "\\ans")
+				{
+					textBox_ans.Text = pronounce[now];
+				}
 			}
 		}
 
